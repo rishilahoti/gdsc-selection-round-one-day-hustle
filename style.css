@@ -1,0 +1,216 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+
+.navbar-nav{
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+
+.navbar{
+	background-color: #11151C;
+	color: white !important;
+}
+
+.nav-item a{
+	color: white !important;
+}
+
+
+.nav-item{
+	padding-left: 2px;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    font-weight: bold;
+	color: white !important;
+	padding-left: 100px;
+}
+
+#navbar button{
+	color: white !important;
+}
+
+/* banner */
+
+.b3{
+    margin: 10px;
+    position: relative;
+    top:60px;
+    right:.01px;
+}
+
+#banner-container{
+	background-color: #11151C;
+	color: white !important;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	
+}
+
+#banner-row img{
+	max-width: 70%;
+	height: auto;
+	display: block;
+	padding-left: 30px;
+}
+
+#banner-row h1, p{
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: left;
+}
+
+#banner-row a{
+	background-color: white !important;
+	color: black !important;
+	border: none;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
+
+.btn{
+    position: relative;
+    left:20px;
+    color: white;
+    background-color:#11151C;
+    height:50px;
+    width:200px;
+    font-size:1.2rem;
+    border-radius: 30px;
+    border-width: 2px;
+    text-align:center;
+    border-color: #3B0050;
+}
+
+#banner-col{
+	padding-left: 20px;
+}
+
+/* domain */
+#domain{
+    background-color: #11151C;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#domain h1{
+	padding-bottom: 70px;
+    font-size: 55px;
+    color: white;
+}
+#card{
+    margin:20px;
+    position: relative;
+    left:100px;
+    
+}
+.card{
+    background-color: #11151C;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px #31047B;
+    color: white;
+    text-align: center;
+}
+#card img{
+    align-self: center;
+}
+
+/* about */
+
+#about{
+    background-color: #11151C;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#about h1{
+    background-color: #11151C;
+    font-size: 55px;
+	padding-bottom: 70px;
+    color: white;
+}
+/* testimonial */
+
+#testimonial{
+    background-color: #11151C;
+    color: white;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#testimonial h1{
+	padding-bottom: 70px;
+}
+
+#testimonial-col2 ul{
+	padding-top: 90px;
+}
+
+#testimonial-col2 ul li{
+	padding-top: 15px;
+}
+
+.gradient-custom {
+    background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+      linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+      linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+      radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+      radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+  }
+  .carousel-indicators {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+
+/* social */
+
+#social{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#social h1{
+	padding-bottom: 70px;
+}
+
+.social-col a:hover img{
+transform: translateY(-10px);
+}
+
+#social-row{
+	flex-direction: row;
+}
+
+/* footer */
+
+.mb-3{
+padding-top: 10px;
+}
+
+
+/* media */
+@media only screen and (max-width: 987px){
+	.navbar-brand{
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#banner-row img{
+		padding-top: 20px;
+	}
+
+.social-col{
+	width: 33%;
+}
+
+}
